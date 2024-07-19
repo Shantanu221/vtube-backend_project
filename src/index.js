@@ -14,7 +14,7 @@ connectDB()
       console.log(`Server is running at port: ${process.env.PORT}`);
     });
   })
-  .catch((err) => console.log("Mngo db connect error", err));
+  .catch((err) => console.log("Mongo db connect error", err));
 
 // second way to connect db
 /*
